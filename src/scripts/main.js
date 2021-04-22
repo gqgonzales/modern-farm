@@ -1,5 +1,4 @@
 import { createPlan } from "./plan.js";
-import { createAsparagus } from "./seeds/asparagus";
 
 console.log("Welcome to the main module");
 
