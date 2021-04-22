@@ -7,12 +7,12 @@ Each with the proper keys and values.
 */
 
 const createCorn = (type, height, output) => {
-    const corn = {
-      type: "corn",
-      height: 380,
-      output: 3,
-    };
-    return corn;
+  const corn = {
+    type: "corn",
+    height: 180,
+    output: 6,
   };
+  return [corn, corn];
+};
 
 //   console.log(createCorn());
