@@ -11,13 +11,12 @@ const asparagusSeed = createAsparagus();
 
 const thisHarvest = [];
 
+// addPlant adds the seed to the field.
 export const addPlant = () => {
   thisHarvest.push(asparagusSeed);
 };
 
+// Returns a copy of the array of plants.
 export const usePlants = () => {
   return thisHarvest;
 };
-
-
-console.log(usePlants());

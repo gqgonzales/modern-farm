@@ -34,5 +34,7 @@ export const yearlyPlan = createPlan();
 
 // console.log(currentTilling);
 
+console.log(usePlants());
+
 plantSeeds(yearlyPlan);
 console.log(plantSeeds(yearlyPlan));
