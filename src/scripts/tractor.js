@@ -10,6 +10,7 @@ import { createWheat } from "./seeds/wheat.js";
 
 // import { createAsparagus } from "./seeds/asparagus";
 
+// plantSeeds, of course, plants the seeds.
 export const plantSeeds = (yearlyPlan) => {
   for (const sowing of yearlyPlan) {
     for (let i = 0; i < sowing.length; i++) {

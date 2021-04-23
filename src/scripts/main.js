@@ -29,12 +29,18 @@ export const yearlyPlan = createPlan();
 
 // console.log(asparagusSeed);
 // export const asparagusSeed = createAsparagus();
-// addPlant(asparagusSeed);
-// const currentTilling = usePlants();
 
+// This is the "Checking your logic" at the end of Chapter 3, Tilling
+addPlant();
+const currentTilling = usePlants();
 // console.log(currentTilling);
 
-console.log(usePlants());
 
-plantSeeds(yearlyPlan);
-console.log(plantSeeds(yearlyPlan));
+// console.log(usePlants());
+
+// plantSeeds(yearlyPlan);
+// console.log(plantSeeds(yearlyPlan));
+
+// Checking your logic at the end of Chapter 4, Sowing with your tractor
+plantSeeds(usePlants());
+console.log(currentTilling);
