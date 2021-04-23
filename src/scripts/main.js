@@ -6,8 +6,7 @@ console.log("Welcome to the main module");
 
 const yearlyPlan = createPlan();
 
-// yearlyPlan();
-
+console.log(yearlyPlan);
 
 const asparagusSeed = createAsparagus()
 console.log(asparagusSeed)
