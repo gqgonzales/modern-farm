@@ -18,7 +18,7 @@
 // import { createWheat } from "./seeds/wheat.js";
 // import { wheatSeed } from "./seeds/wheat.js";
 
-import { plantSeeds } from "./tractor.js";
+// import { plantSeeds } from "./tractor.js";
 
 // const asparagusSeed = createAsparagus();
 

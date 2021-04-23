@@ -36,8 +36,8 @@ const yearlyPlan = createPlan();
 // console.log(currentTilling);
 
 // Chapter 4: Sowing the Field
-// plantSeeds(yearlyPlan);
-
+plantSeeds(yearlyPlan);
+usePlants();
 const planting = plantSeeds(yearlyPlan);
 
 console.log(planting);
