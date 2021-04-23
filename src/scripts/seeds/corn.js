@@ -6,7 +6,7 @@ Each with the proper keys and values.
 
 */
 
-export const createCorn = (type, height, output) => {
+export const createCorn = () => {
   const corn = {
     type: "corn",
     height: 180,
