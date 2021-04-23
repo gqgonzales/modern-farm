@@ -18,20 +18,15 @@ export const plantSeeds = (yearlyPlan) => {
     for (let i = 0; i < sowing.length; i++) {
       if (sowing[i] === "asparagus") {
         addPlant(createAsparagus());
-      }
-      else if (sowing[i] === "potato") {
+      } else if (sowing[i] === "potato") {
         addPlant(createPotato());
-      }
-      else if (sowing[i] === "corn") {
+      } else if (sowing[i] === "corn") {
         addPlant(createCorn());
-      }
-      else if (sowing[i] === "soybean") {
+      } else if (sowing[i] === "soybean") {
         addPlant(createSoybean());
-      }
-      else if (sowing[i] === "sunflower") {
+      } else if (sowing[i] === "sunflower") {
         addPlant(createSunflower());
-      }
-      else if (sowing[i] === "wheat") {
+      } else if (sowing[i] === "wheat") {
         addPlant(createWheat());
       }
     }
