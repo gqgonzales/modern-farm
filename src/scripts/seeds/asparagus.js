@@ -10,7 +10,7 @@ type, height, output
 
 */
 
-const createAsparagus = (type, height, output) => {
+export const createAsparagus = (type, height, output) => {
   const asparagus = {
     type: "asparagus",
     height: 24,
