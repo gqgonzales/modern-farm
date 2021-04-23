@@ -9,8 +9,12 @@ import { createWheat } from "./seeds/wheat";
 
 const thisHarvest = [];
 
-export const addPlant = () => {};
+export const addPlant = (createSoybean) => {
+  thisHarvest.push;
+};
 
 export const usePlants = () => {
   return thisHarvest;
 };
+
+console.log(thisHarvest);
