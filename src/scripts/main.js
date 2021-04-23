@@ -23,24 +23,19 @@ import { plantSeeds } from "./tractor.js";
 
 console.log("Welcome to the main module");
 
+// Chapter 1: Harvest Plan
 export const yearlyPlan = createPlan();
-
 // console.log(yearlyPlan);
 
+// Chapter 2: Creating Seeds
 // console.log(asparagusSeed);
 // export const asparagusSeed = createAsparagus();
 
-// This is the "Checking your logic" at the end of Chapter 3, Tilling
+// Chapter 3: Tilling the Field
 addPlant();
 const currentTilling = usePlants();
 // console.log(currentTilling);
 
-
-// console.log(usePlants());
-
-// plantSeeds(yearlyPlan);
-// console.log(plantSeeds(yearlyPlan));
-
-// Checking your logic at the end of Chapter 4, Sowing with your tractor
+// Chapter 4: Sowing the Field
 plantSeeds(usePlants());
 console.log(currentTilling);
