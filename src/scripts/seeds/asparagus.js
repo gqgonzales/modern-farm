@@ -18,7 +18,7 @@ export const createAsparagus = (type, height, output) => {
   };
   return asparagus;
 };
-export const asparagusSeed = createAsparagus();
+
 
 // console.log(createAsparagus());
 // HOLY GOD IT WORKED
