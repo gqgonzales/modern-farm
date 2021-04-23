@@ -12,13 +12,12 @@ const asparagusSeed = createAsparagus();
 const thisHarvest = [];
 
 export const addPlant = () => {
-  thisHarvest.push();
+  thisHarvest.push(asparagusSeed);
 };
 
 export const usePlants = () => {
   return thisHarvest;
 };
 
-addPlant(asparagusSeed);
 
 console.log(usePlants());
