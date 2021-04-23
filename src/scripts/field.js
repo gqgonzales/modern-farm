@@ -31,8 +31,8 @@ const thisHarvest = [];
 
 // addPlant adds the seed to the field.
 //You must specify which seed you are planting inside the push() method.
-export const addPlant = () => {
-  thisHarvest.push();
+export const addPlant = (seedObject) => {
+  thisHarvest.push(seedObject);
 };
 
 // Returns a copy of the array of plants.

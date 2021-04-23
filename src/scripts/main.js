@@ -24,7 +24,7 @@ import { plantSeeds } from "./tractor.js";
 console.log("Welcome to the main module");
 
 // Chapter 1: Harvest Plan
-export const yearlyPlan = createPlan();
+const yearlyPlan = createPlan();
 // console.log(yearlyPlan);
 
 // Chapter 2: Creating Seeds
@@ -32,10 +32,13 @@ export const yearlyPlan = createPlan();
 // export const asparagusSeed = createAsparagus();
 
 // Chapter 3: Tilling the Field
-addPlant();
-const currentTilling = usePlants();
+// addPlant();
+// const currentTilling = usePlants();
 // console.log(currentTilling);
 
 // Chapter 4: Sowing the Field
-plantSeeds(usePlants());
-console.log(currentTilling);
+// plantSeeds(yearlyPlan);
+
+const planting = plantSeeds(yearlyPlan);
+
+console.log(planting);
