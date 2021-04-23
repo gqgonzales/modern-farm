@@ -7,4 +7,6 @@ export const createSunflower = (type, height, output) => {
     return sunflower;
   };
 
+  export const sunflowerSeed = createSunflower();
+
 //   console.log(createSunflower());

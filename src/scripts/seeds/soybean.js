@@ -7,4 +7,6 @@ export const createSoybean = (type, height, output) => {
     return soybean;
   };
 
+  export const soybeanSeed = createSoybean();
+
 //   console.log(createSoybean());

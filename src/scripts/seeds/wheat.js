@@ -7,4 +7,6 @@ export const createWheat = (type, height, output) => {
     return wheat;
   };
 
+  export const wheatSeed = createWheat();
+
 //   console.log(createWheat());

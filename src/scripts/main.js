@@ -7,5 +7,5 @@ const yearlyPlan = createPlan();
 
 console.log(yearlyPlan);
 
-const asparagusSeed = createAsparagus();
+export const asparagusSeed = createAsparagus();
 console.log(asparagusSeed);

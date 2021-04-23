@@ -7,4 +7,6 @@ export const createPotato = (type, height, output) => {
     return potato;
   };
 
+  export const potatoSeed = createPotato();
+
 //   console.log(createPotato());

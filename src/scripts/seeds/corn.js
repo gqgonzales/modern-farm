@@ -15,4 +15,6 @@ export const createCorn = (type, height, output) => {
   return [corn, corn];
 };
 
+export const cornSeed = createCorn();
+
 //   console.log(createCorn());
