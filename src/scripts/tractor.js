@@ -6,12 +6,6 @@ import { createSunflower } from "./seeds/sunflower.js";
 import { createWheat } from "./seeds/wheat.js";
 import { addPlant, usePlants } from "./field.js";
 
-// import { yearlyPlan } from "./main.js";
-
-// import { createPlan } from "./plan.js";
-
-// import { createAsparagus } from "./seeds/asparagus";
-
 // plantSeeds, of course, plants the seeds.
 export const plantSeeds = (yearlyPlan) => {
   for (const sowing of yearlyPlan) {
