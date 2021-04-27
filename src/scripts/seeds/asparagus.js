@@ -11,14 +11,13 @@ type, height, output
 */
 
 export const createAsparagus = () => {
-  const asparagus = {
-    type: "asparagus",
-    height: 24,
-    output: 4,
-  };
-  return asparagus;
+  return { type: "asparagus", height: 24, output: 4 };
+  // const asparagus = {
+  //   type: "asparagus",
+  //   height: 24,
+  //   output: 4,
+  // };
+  // return asparagus;
 };
 
 export const asparagusSeed = createAsparagus();
-
-

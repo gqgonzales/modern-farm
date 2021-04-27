@@ -10,17 +10,17 @@ import { addPlant, usePlants } from "./field.js";
 export const plantSeeds = (yearlyPlan) => {
   for (const sowing of yearlyPlan) {
     for (let i = 0; i < sowing.length; i++) {
-      if (sowing[i] === "asparagus") {
+      if (sowing[i] === "Asparagus") {
         addPlant(createAsparagus());
-      } else if (sowing[i] === "potato") {
+      } else if (sowing[i] === "Potato") {
         addPlant(createPotato());
-      } else if (sowing[i] === "corn") {
+      } else if (sowing[i] === "Corn") {
         addPlant(createCorn());
-      } else if (sowing[i] === "soybean") {
+      } else if (sowing[i] === "Soybean") {
         addPlant(createSoybean());
-      } else if (sowing[i] === "sunflower") {
+      } else if (sowing[i] === "Sunflower") {
         addPlant(createSunflower());
-      } else if (sowing[i] === "wheat") {
+      } else if (sowing[i] === "Wheat") {
         addPlant(createWheat());
       }
     }
