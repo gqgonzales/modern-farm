@@ -1,5 +1,5 @@
 export const createPotato = () => {
-  return { type: "potato", height: 32, output: 2 };
+  return { type: "Potato", height: 32, output: 2 };
 };
 
 export const potatoSeed = createPotato();

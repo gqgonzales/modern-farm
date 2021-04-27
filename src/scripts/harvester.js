@@ -1,7 +1,7 @@
-export const harvestPlants = (usePlants) => {
+export const harvestPlants = (plantsArray) => {
   const newArray = [];
 
-  for (const harvest of usePlants) {
+  for (const harvest of plantsArray) {
     if (harvest.type === "Corn") {
       for (let j = 0; j < harvest.output / 2; j++) {
         newArray.push(harvest);
@@ -11,6 +11,6 @@ export const harvestPlants = (usePlants) => {
         newArray.push(harvest);
       }
     }
-    return newArray;
   }
+  return newArray;
 };

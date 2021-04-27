@@ -26,5 +26,6 @@ export const planting = plantSeeds(yearlyPlan);
 console.log(planting);
 
 // Chpater 5: Harvesting the Crops
+usePlants();
 const collectHarvest = harvestPlants(planting);
 console.log(collectHarvest);
