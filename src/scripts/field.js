@@ -3,6 +3,8 @@
 // import { createAsparagus } from "./seeds/asparagus.js";
 // import { asparagusSeed } from "./seeds/asparagus.js";
 
+// import { asparagusSeed } from "./seeds/asparagus.js";
+
 // import { createCorn } from "./seeds/corn.js";
 // import { cornSeed } from "./seeds/corn.js";
 
@@ -32,5 +34,6 @@ export const addPlant = (seedObject) => {
 
 // Returns a copy of the array of plants.
 export const usePlants = () => {
+  console.log(thisHarvest);
   return thisHarvest;
 };

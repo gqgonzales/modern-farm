@@ -1,6 +1,7 @@
 import { createPlan } from "./plan.js";
 import { plantSeeds } from "./tractor.js";
 import { addPlant, usePlants } from "./field.js";
+import { asparagusSeed } from "./seeds/asparagus.js";
 
 console.log("Welcome to the main module");
 
@@ -14,7 +15,7 @@ const yearlyPlan = createPlan();
 
 // Chapter 3: Tilling the Field
 // addPlant();
-// const currentTilling = usePlants();
+const currentTilling = usePlants();
 // console.log(currentTilling);
 
 // Chapter 4: Sowing the Field
@@ -22,4 +23,5 @@ const yearlyPlan = createPlan();
 // usePlants();
 const planting = plantSeeds(yearlyPlan);
 
-console.log(planting);
+// console.log(planting);
+// console.log(thisHarvest);
