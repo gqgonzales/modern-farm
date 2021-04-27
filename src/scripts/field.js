@@ -34,6 +34,5 @@ export const addPlant = (seedObject) => {
 
 // Returns a copy of the array of plants.
 export const usePlants = () => {
-  console.log(thisHarvest);
   return thisHarvest;
 };

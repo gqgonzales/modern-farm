@@ -1,7 +1,8 @@
 import { createPlan } from "./plan.js";
 import { plantSeeds } from "./tractor.js";
 import { addPlant, usePlants } from "./field.js";
-import { asparagusSeed } from "./seeds/asparagus.js";
+// import { harvestPlants } from "./harvester.js"
+// import { asparagusSeed } from "./seeds/asparagus.js";
 
 console.log("Welcome to the main module");
 
@@ -21,7 +22,8 @@ const currentTilling = usePlants();
 // Chapter 4: Sowing the Field
 // plantSeeds(yearlyPlan);
 // usePlants();
-const planting = plantSeeds(yearlyPlan);
+export const planting = plantSeeds(yearlyPlan);
+console.log(planting);
 
-// console.log(planting);
-// console.log(thisHarvest);
+// Chpater 5: Harvesting the Crops
+// const collectHarvest = harvestPlants(planting);

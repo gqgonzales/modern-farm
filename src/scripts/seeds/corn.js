@@ -7,14 +7,6 @@ Each with the proper keys and values.
 */
 
 export const createCorn = () => {
-  //   const corn = {
-  //     type: "corn",
-  //     height: 180,
-  //     output: 6,
-  //   };
-  //   return [corn, corn];
-  // };
-
   return [
     { type: "corn", height: 180, output: 6 },
     { type: "corn", height: 180, output: 6 },
@@ -23,4 +15,4 @@ export const createCorn = () => {
 
 export const cornSeed = createCorn();
 
-  // console.log(createCorn());
+// console.log(createCorn());
