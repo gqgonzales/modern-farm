@@ -35,4 +35,4 @@ console.log(collectHarvest);
 const test = catalog(collectHarvest);
 // console.log(test);
 
-document.getElementById("food").innerHTML = test;
+document.getElementById("foodList").innerHTML = test;
