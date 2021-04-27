@@ -1,7 +1,8 @@
 import { createPlan } from "./plan.js";
 import { plantSeeds } from "./tractor.js";
 import { addPlant, usePlants } from "./field.js";
-import { harvestPlants } from "./harvester.js"
+import { harvestPlants } from "./harvester.js";
+import { catalog } from "./catalog.js";
 // import { asparagusSeed } from "./seeds/asparagus.js";
 
 console.log("Welcome to the main module");
@@ -31,3 +32,7 @@ const collectHarvest = harvestPlants(planting);
 console.log(collectHarvest);
 
 // Chapter 6: Selling the Harvest
+const test = catalog(collectHarvest);
+// console.log(test);
+
+document.getElementsByClassName("harvest").innerHTML = test;
