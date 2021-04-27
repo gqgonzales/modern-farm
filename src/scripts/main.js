@@ -1,7 +1,7 @@
 import { createPlan } from "./plan.js";
 import { plantSeeds } from "./tractor.js";
 import { addPlant, usePlants } from "./field.js";
-// import { harvestPlants } from "./harvester.js"
+import { harvestPlants } from "./harvester.js"
 // import { asparagusSeed } from "./seeds/asparagus.js";
 
 console.log("Welcome to the main module");
@@ -26,4 +26,5 @@ export const planting = plantSeeds(yearlyPlan);
 console.log(planting);
 
 // Chpater 5: Harvesting the Crops
-// const collectHarvest = harvestPlants(planting);
+const collectHarvest = harvestPlants(planting);
+console.log(collectHarvest);
