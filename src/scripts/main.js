@@ -22,10 +22,12 @@ const currentTilling = usePlants();
 // Chapter 4: Sowing the Field
 // plantSeeds(yearlyPlan);
 // usePlants();
-export const planting = plantSeeds(yearlyPlan);
+const planting = plantSeeds(yearlyPlan);
 console.log(planting);
 
 // Chpater 5: Harvesting the Crops
 usePlants();
 const collectHarvest = harvestPlants(planting);
 console.log(collectHarvest);
+
+// Chapter 6: Selling the Harvest
